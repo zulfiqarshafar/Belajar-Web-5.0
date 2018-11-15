@@ -148,7 +148,7 @@ header {
 .absolute-toggle {
 	position: absolute;
 	left: 15px;
-	top: 1.5em;
+	// top: 1.5em;
 	.burger-lines {
 
 		width: 30px;
@@ -435,6 +435,21 @@ header {
 	}
 }
 
+
+//Portfolio gallery
+.port-wrap {
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	height: 254px;
+	padding: 0;
+	.img-fluid{
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
 .school-features,
 .school-instructors {
 	// float: left;
@@ -684,7 +699,6 @@ textarea.form-control {
 		top: 50%;
 		width: 100%;
 		padding: 5px;
-		background: $black;
 		.owl-prev,
 		.owl-next {
 			position: absolute;
@@ -1355,7 +1369,7 @@ textarea.form-control {
 	.search-top-form {
 		position: relative;	
 		// float: right;
-		margin-left: 6rem;
+		// margin-left: 6rem;
 		@include media-breakpoint-down(sm) {
 			margin: 0 auto;
 			padding-bottom: 1rem;
